@@ -15,7 +15,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 @EnableWebMvc //mvc:annotation-driven
 @Configuration
 @ComponentScan({ "com" })
-//@Import({ SpringSecurityConfig.class })
 public class SpringWebConfig extends WebMvcConfigurerAdapter {
 
 	@Bean

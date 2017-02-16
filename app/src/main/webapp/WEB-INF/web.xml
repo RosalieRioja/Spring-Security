@@ -26,7 +26,7 @@
   </servlet-mapping>
 
 
-        <!-- Loads Spring Security config file -->
+  <!-- Loads Spring Security config file -->
   <!--
   <context-param>
     <param-name>contextConfigLocation</param-name>

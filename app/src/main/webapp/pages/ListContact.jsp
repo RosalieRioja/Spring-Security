@@ -13,14 +13,6 @@
 
     <body>
     
-    <!--
-    <c:url value="/logout" var="logoutUrl" />
-    <form action="${logoutUrl}" method="post" id="logoutForm" align="right">
-        <input type="hidden" name="${_csrf.parameterName}"
-            value="${_csrf.token}" />
-        <input type="submit" value="Logout"/>
-    </form>
--->
     <div align="right">
         <a href="/logout"> Logout</a>
     </div>
