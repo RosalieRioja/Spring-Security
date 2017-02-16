@@ -77,7 +77,7 @@ public class PersonDaoImpl implements PersonDao {
 		finally {
 			session.close();
 		}
-		System.out.println(people.size());
+		System.out.println("list size = " + people.size());
 		return people;
 	}
 

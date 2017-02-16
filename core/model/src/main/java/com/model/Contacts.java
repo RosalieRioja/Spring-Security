@@ -39,24 +39,24 @@ public class Contacts {
 		return this.type;
 	}
 	
-	public void setType( ContactType type_param ) {
-		this.type = type_param;
+	public void setType( ContactType typeParam ) {
+		this.type = typeParam;
 	}
 
 	public String getValue() {
 		return this.value;
 	}
 	
-	public void setValue( String value_param ) {
-		this.value = value_param;
+	public void setValue( String valueParam ) {
+		this.value = valueParam;
 	}
 
 	public Person getPerson() {
 		return this.person;
 	}
 
-	public void setPerson(Person person_param) {
-		this.person = person_param;
+	public void setPerson(Person personParam) {
+		this.person = personParam;
 	}
 
 	public boolean equals(Object obj) {

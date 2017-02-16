@@ -17,5 +17,6 @@
         <mapping class="com.model.PersonAddress"></mapping>
         <mapping class="com.model.Contacts"></mapping>
         <mapping class="com.model.Roles"></mapping>
+        <mapping class="com.model.User"></mapping>
     </session-factory>
 </hibernate-configuration >

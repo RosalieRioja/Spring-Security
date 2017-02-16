@@ -51,36 +51,36 @@ public class Person {
 
 	public Person() {}
 
-	public void setId(int id_param) {
-		this.id = id_param;
+	public void setId(int idParam) {
+		this.id = idParam;
 	}
 
-	public void setName(PersonName name_param) {
-		this.name = name_param;
+	public void setName(PersonName nameParam) {
+		this.name = nameParam;
 	}
 
-	public void setBirthday(Date bday_param) {
-		this.birthday = bday_param;
+	public void setBirthday(Date bdayParam) {
+		this.birthday = bdayParam;
 	}
 
-	public void setGWA(float gwa_param) {
-		this.GWA = gwa_param;
+	public void setGWA(float gwaParam) {
+		this.GWA = gwaParam;
 	}
 
-	public void setDateHired(Date datehired_param) {
-		this.dateHired = datehired_param;
+	public void setDateHired(Date datehiredParam) {
+		this.dateHired = datehiredParam;
 	}
 
-	public void setCurrentlyEmployed(boolean currEmployed_param) {
-		this.currentlyEmployed = currEmployed_param;
+	public void setCurrentlyEmployed(boolean currEmployedParam) {
+		this.currentlyEmployed = currEmployedParam;
 	}
 
-	public void setGender(PersonGender gender_param) {
-		this.gender = gender_param;
+	public void setGender(PersonGender genderParam) {
+		this.gender = genderParam;
 	}
 
-	public void setAddress(PersonAddress address_param) {
-		this.address = address_param;
+	public void setAddress(PersonAddress addressParam) {
+		this.address = addressParam;
 	}
 
 	public int getId() {
@@ -119,16 +119,16 @@ public class Person {
 		return this.contacts;
 	}
 	
-	public void setContacts(Set<Contacts> contacts_param) {
-		this.contacts = contacts_param;
+	public void setContacts(Set<Contacts> contactsParam) {
+		this.contacts = contactsParam;
 	}
 
 	public Set<Roles> getRoles() {
 		return this.roles;
 	}
 	
-	public void setRoles(Set<Roles> roles_param) {
-		this.roles = roles_param;
+	public void setRoles(Set<Roles> rolesParam) {
+		this.roles = rolesParam;
 	}
 
 }
