@@ -47,7 +47,7 @@ public class ContactsDTO {
 		if (obj == null) return false;
 		if (!this.getClass().equals(obj.getClass())) return false;
 		
-		Contacts obj2 = (Contacts)obj;
+		ContactsDTO obj2 = (ContactsDTO)obj;
 		
 		if((this.value.equals(obj2.getValue())))
 		{

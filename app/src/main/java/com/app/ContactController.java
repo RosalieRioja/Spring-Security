@@ -63,6 +63,8 @@ public class ContactController {
         ModelAndView model = new ModelAndView("AddContact");
         model.addObject("personId", request.getParameter("personId"));
 
+        request.getSession().setAttribute("personId", request.getParameter("personId"));
+
         return model;
     }
 
@@ -83,6 +85,8 @@ public class ContactController {
         }
         model.addObject("personId", editPerson.getId());
         model.addObject("contact", contact);
+
+        request.getSession().setAttribute("personId", request.getParameter("personId"));
 
         return model;
     }
